@@ -1,0 +1,14 @@
+#body {
+display: flex;
+
+}
+.body-text{
+    display: flex;
+    flex-direction: row;
+}
+
+#body p{
+display: flex;
+flex-direction: column;
+display : inline-block;
+}

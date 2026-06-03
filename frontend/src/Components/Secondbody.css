@@ -1,0 +1,18 @@
+
+#secondbodyimages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#secondmenu {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 0px 100px;
+    font-weight: 500;
+
+}
+#secondmenu:hover {
+    color: black;
+    text-decoration: underline;
+}
