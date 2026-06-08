@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import {useNavigate}  from 'react-router-dom'
 
 function Header() {
   return (
@@ -21,14 +22,14 @@ function Header() {
           <p>ELITE</p>
           </div>
           <ul id='menu'>
-            <a href=""><li>COLLECTONS</li></a>
+            <a href="#Collections"><li>COLLECTONS</li></a>
              <a href=""><li>EDITORIAL</li> </a>
              <a href=""><li>BESPOKE</li></a>
              <a href=""><li>HERITAGE</li></a>
           </ul>
           <div id='booticons'>
-          <i class="bi bi-search"></i> <br />
-          <i class="bi bi-bag"></i> <br />
+          <i className="bi bi-search"></i> <br />
+          <i className="bi bi-bag"></i> <br />
           
 
           <button>Shop Now</button>

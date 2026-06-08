@@ -25,7 +25,7 @@ function Page2() {
     //     <img src={product3} alt="" />
     //     </div>
     // </div>
-    <div id='page2'>
+    <div id='Collections'>
       <section id='headings'>
         <h1>Essential Selection</h1>
         <ul id='menus'>
