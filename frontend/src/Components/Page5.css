@@ -1,0 +1,24 @@
+#page5{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin: 0 200px;
+}
+
+#nintynine{
+    color: rgba(0, 0, 0, 0.35);
+}
+
+
+#page5 p{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+#by{
+    font-size: medium;
+    font-weight: 100;
+}

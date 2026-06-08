@@ -1,0 +1,46 @@
+#page7{
+     height: 400px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footerul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     color: rgba(0, 0, 0, 0.35);
+}
+
+#logo{
+    font-size:xx-small;
+
+}
+
+.dark{
+    color: black;
+    font-weight: 500;
+}
+
+#inpin{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#lastdark{
+        color: black;
+    font-weight: 500;
+
+    text-decoration: underline;
+    text-decoration-color: black;
+     text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+#copyrights{
+    
+}

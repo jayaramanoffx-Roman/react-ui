@@ -1,4 +1,4 @@
-.menu {
+/* .menu {
     text-decoration: none;
     color: black;
     position: relative;
@@ -31,4 +31,63 @@
 #firstimg {
     width: 1280px;
     height: 720px;
+} */
+#logo{
+
+    font-size:xx-small;
+    position: relative;
+    top: 5px;
+    
+}
+#menu a{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+#menu{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-weight: 700;
+
+}
+
+#menu li:hover{
+
+    text-decoration: underline;
+    text-decoration-color: black;
+     text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+header button {
+
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    
+}
+
+ #booticons{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
 }

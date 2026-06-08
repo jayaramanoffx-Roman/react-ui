@@ -1,0 +1,22 @@
+#head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+#threepillars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 100px;
+    gap: 50px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-number{
+    color: rgba(0, 0, 0, 0.35);
+}
